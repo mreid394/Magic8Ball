@@ -12,7 +12,7 @@ class Program
 
 		// Define the user's question
 		string userQuestion = "Will St.Mirren win a trophy this year?";
-		Console.WriteLine(userQuestion);
+		Console.WriteLine("User: " + userQuestion);
 
 		// Create a Random object to generate a random number
 		Random random = new Random();
